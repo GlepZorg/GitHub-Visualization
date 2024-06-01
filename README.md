@@ -1,6 +1,6 @@
 # GitHub Visualization
 
-In this project, I use GitHub’s API to request information about Python projects on the site and generate an interactive visualization of the relative popularity of these projects using Plotly. This project provides insights into the popularity and trends of Python projects on GitHub.
+In this project, I use GitHub’s API to request information about Python projects on the site and generate an interactive visualization of the relative popularity of these projects using Plotly. I then write a program to automatically download information about the most-starred Python projects on GitHub and create an informative visualization of these projects.
 
 ## Table of Contents
 
@@ -14,13 +14,14 @@ In this project, I use GitHub’s API to request information about Python projec
 
 ## Introduction
 
-The GitHub Visualization project leverages GitHub’s API to gather data about Python projects and visualize their popularity. Using Plotly, I create interactive visualizations that highlight key metrics, helping users understand trends and the relative popularity of different projects.
+The GitHub Visualization project leverages GitHub’s API to gather data about the most-starred Python projects and visualize their popularity. Using Plotly, I create interactive visualizations that highlight key metrics, helping users understand trends and the relative popularity of different projects.
 
 ## Features
 
-- Fetch data from GitHub’s API about Python projects.
+- Fetch data from GitHub’s API about the most-starred Python projects.
 - Generate interactive visualizations using Plotly.
 - Analyze and compare the popularity of various Python projects.
+- Automatically download and update information about project stars.
 
 ## Installation
 
